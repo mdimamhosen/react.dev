@@ -70,7 +70,7 @@ function ExpandableExample({children, excerpt, type}: ExpandableExampleProps) {
             e.preventDefault();
           }
         }}>
-        <h5
+        <div
           className={cn('mb-4 uppercase font-bold flex items-center text-sm', {
             'dark:text-purple-30 text-purple-50': isDeepDive,
             'dark:text-yellow-30 text-yellow-60': isExample,
@@ -87,7 +87,7 @@ function ExpandableExample({children, excerpt, type}: ExpandableExampleProps) {
               Example
             </>
           )}
-        </h5>
+        </div>
         <div className="mb-4">
           <H4
             id={id}
