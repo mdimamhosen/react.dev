@@ -40,10 +40,11 @@ This API controls how components render on the server:
 
 ## Entry points {/*entry-points*/}
 
-The `react-dom` package provides two additional entry points:
+The `react-dom` package provides three additional entry points:
 
 * [`react-dom/client`](/reference/react-dom/client) contains APIs to render React components on the client (in the browser).
 * [`react-dom/server`](/reference/react-dom/server) contains APIs to render React components on the server.
+* [`react-dom/static`](/reference/react-dom/static) contains APIs to generate static HTML for React components.
 
 ---
 
